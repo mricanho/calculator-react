@@ -4,7 +4,7 @@ This project is a simple Calculator tool for Math-magicians Inc using create-rea
 
 ## Live demo
 
-[live demo](https://rawcdn.githack.com/mricanho/To-do-list/b7f35d15c48881d6e18a0d5fecd9d8355450a37b/dist/index.html)
+[live demo](https://relaxed-wescoff-5a5dbf.netlify.app/
 
 ## Built With
 
