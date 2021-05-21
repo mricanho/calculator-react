@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const App = () => (
   <div>
-    <h1>Calculator App</h1>
+    <h1>Calculator</h1>
   </div>
 );
 
