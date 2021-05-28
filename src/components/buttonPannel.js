@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Button from './Button';
+import Button from './Button.js';
 import '../index.css';
 
 const ButtonPanel = () => (

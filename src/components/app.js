@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import Display from './Display';
-import ButtonPannel from './ButtonPannel';
+import Display from './Display.js';
+import ButtonPannel from './ButtonPannel.js';
 
 const result = '0';
 const App = () => (
