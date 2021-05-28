@@ -32,7 +32,6 @@ const ButtonPanel = () => (
       <Button buttonName="0" type="num" />
       <Button buttonName="." type="num" />
       <Button buttonName="=" type="op" />
-
     </div>
   </>
 );

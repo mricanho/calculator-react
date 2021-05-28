@@ -16,12 +16,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+#root {
+  background-color: rgb(17, 20, 53);
+}
+
+.display-value {
+  border: transparent 5px solid;
+  color: white;
+  text-align: end;
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sp,
+.op,
+.num {
+  border: 1px black solid;
+  text-align: center;
+}
+
+.d-grid-last {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.num {
+  background-color: rgb(183, 230, 238);
+}
+
+.op {
+  background-color: rgb(47, 120, 255);
+}
+
+.sp {
+  background-color: rgb(157, 162, 207);
 }
