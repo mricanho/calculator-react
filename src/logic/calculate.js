@@ -48,4 +48,15 @@ const calculate = (data, buttonName) => {
     }
     return data;
   }
+  if (['+', 'x', '/', '-'].includes(buttonName)) {
+    if (!total) total = 0;
+    if (total && !next) {
+      operation = buttonName;
+    }
+    if (total && next && operation) {
+      total = Operate(total, next, operation);
+    }
+    operation = buttonName;
+    return data;
+  }
 }
