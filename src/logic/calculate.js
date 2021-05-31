@@ -19,4 +19,20 @@ const calculate = (data, buttonName) => {
     else next /= 100;
     return data;
   }
+  if (['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'].includes(buttonName)) {
+    if (!operation) {
+      if (!total) {
+        total = buttonName;
+      } else if (typeof total === 'number') {
+        total = buttonName;
+      } else {
+        total += buttonName;
+      }
+    } else if (!next) {
+      next = buttonName;
+    } else {
+      next += buttonName;
+    }
+    return data;
+  }
 }
