@@ -35,4 +35,17 @@ const calculate = (data, buttonName) => {
     }
     return data;
   }
+  if (buttonName === '.') {
+    if (!total) return '0.';
+    if (total && operation) {
+      total += '.';
+    }
+    if (total && operation && next) {
+      next += '.';
+    }
+    if (total && operation && !next) {
+      next += '0.';
+    }
+    return data;
+  }
 }
