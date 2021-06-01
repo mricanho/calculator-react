@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Display from './display';
-import ButtonPannel from './buttonPannel';
-import Calculate from '../logic/calculate';
+import ButtonPanel from './buttonPanel';
+import calculate from '../logic/calculate';
 
 class App extends React.Component {
   constructor(props) {
