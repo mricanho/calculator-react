@@ -16,8 +16,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background: url(https://www.rd.com/wp-content/uploads/2018/02/math-problem-1024x683.jpg);
+  background-color: rgb(168, 164, 164);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #root {
-  background-color: rgb(17, 20, 53);
+  padding: 5%;
+  box-sizing: border-box;
 }
 
 .display-value {
@@ -28,29 +36,22 @@ body {
 
 .d-grid {
   display: grid;
+  margin: 5px;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.sp,
-.op,
-.num {
-  border: 1px black solid;
-  text-align: center;
+.ui.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .d-grid-last {
   display: grid;
+  margin: 5px;
   grid-template-columns: 2fr 1fr 1fr;
 }
 
-.num {
-  background-color: rgb(183, 230, 238);
-}
-
-.op {
-  background-color: rgb(47, 120, 255);
-}
-
-.sp {
-  background-color: rgb(157, 162, 207);
+.ui.container .column {
+  background-color: black;
 }
