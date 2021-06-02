@@ -22,16 +22,12 @@ class App extends React.Component {
 
     return (
       <div className="ui grid container">
-        <div className="sixteen wide mobile eight wide tablet ten wide computer column">
-          <Display result={(next && next.toString()) || (total && total.toString())} />
-          <ButtonPanel clickHandler={(e) => handleClick(e)} />
+        <div className="columns is-mobile is-centered">
+          <div className="column is-one-third-tablet">
+            <Display result={(next && next.toString()) || (total && total.toString())} />
+            <ButtonPanel clickHandler={(e) => handleClick(e)} />
+          </div>
         </div>
-        <footer className="footer container center aligned inverted ui header segment">
-          {'Created by '}
-          <a href="https://miguelricano.me" className="ui header teal">
-            Miguel Ricaño
-          </a>
-        </footer>
       </div>
     );
   }
