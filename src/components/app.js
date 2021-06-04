@@ -1,15 +1,35 @@
-/* eslint-disable no-unused-vars */
-import React, { Fragment } from 'react';
+import React from 'react';
 import Display from './display';
-import ButtonPannel from './buttonPannel';
-import Calculate from '../logic/calculate';
+import ButtonPanel from './buttonPanel';
+import calculate from '../logic/calculate';
 
-const result = '0';
-const App = () => (
-  <>
-    <Display result={result} />
-    <ButtonPannel />
-  </>
-);
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
 
+  render() {
+    const handleClick = (buttonName) => {
+      const result = calculate(this.state, buttonName);
+      this.setState({ ...result });
+    };
+    const { next, total } = this.state;
+
+    return (
+      <div className="ui grid container">
+        <div className="columns is-mobile is-centered">
+          <div className="column is-one-third-tablet">
+            <Display result={(next && next.toString()) || (total && total.toString())} />
+            <ButtonPanel clickHandler={(e) => handleClick(e)} />
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
 export default App;

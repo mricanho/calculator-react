@@ -2,6 +2,8 @@
 
 This project is a simple Calculator tool for Math-magicians Inc using create-react-app.
 
+![calculator](https://user-images.githubusercontent.com/60631456/120695646-3eddbd80-c471-11eb-93ce-9871d7d3ae06.jpeg)
+
 ## Live demo
 
 [live demo](https://relaxed-wescoff-5a5dbf.netlify.app/)
