@@ -12,11 +12,6 @@ body {
   overflow-x: hidden;
 }
 
-#root {
-  padding: 5%;
-  margin-top: 80px;
-}
-
 .display-value {
   border: transparent 5px solid;
   color: rgb(255, 255, 255, 0.75);

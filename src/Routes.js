@@ -8,21 +8,35 @@ import Quote from './components/Quote';
 
 const Routes = () => (
   <Router>
-    <header className="head">
-      <h1>Math Magicians</h1>
-      <nav className="navBar">
-        <Link to="/">Home</Link>
-        <Link to="/calculator">Calculator</Link>
-        <Link to="/quote">Quote</Link>
-      </nav>
-    </header>
-    <Switch>
-      <div className="pageContainer">
-        <Route exact path="/" component={Home} />
-        <Route exact path="/calculator" component={App} />
-        <Route exact path="/quote" component={Quote} />
+    <section className="hero is-large">
+      <div className="hero-head">
+        <nav className="navbar">
+          <div className="container">
+            <div className="navbar-brand">
+              <a className="navbar-item has-text-white is-size-4" href="/#">Math Magicians</a>
+            </div>
+            <div className="navbar-menu" id="navbarMenuHeroB">
+              <div className="navbar-end">
+                <Link to="/" className="navbar-item has-text-white">Home</Link>
+                <Link to="/calculator" className="navbar-item has-text-white">Calculator</Link>
+                <Link to="/quote" className="navbar-item has-text-white">Quote</Link>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
-    </Switch>
+      <div className="hero-body pt-6 mt-6">
+        <div className="container has-text-centered">
+          <Switch>
+            <div className="pageContainer">
+              <Route exact path="/" component={Home} />
+              <Route exact path="/calculator" component={App} />
+              <Route exact path="/quote" component={Quote} />
+            </div>
+          </Switch>
+        </div>
+      </div>
+    </section>
   </Router>
 );
 

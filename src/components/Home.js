@@ -2,8 +2,8 @@ import React from 'react';
 
 const Home = () => (
   <>
-    <h3>Welcome to our page!</h3>
-    <p>
+    <h3 className="title mb-6 has-text-white">Welcome to our page!</h3>
+    <p className="subtitle has-text-white">
       Lorem ipsum odor amet, consectetuer adipiscing elit.
       Nisi mauris nullam accumsan sem condimentum quis penatibus ligula.
       Curae maecenas himenaeos felis nascetur platea placerat nam.
@@ -12,7 +12,7 @@ const Home = () => (
       Ligula imperdiet inceptos accumsan bibendum elementum viverra vulputate ultrices malesuada.
       Ipsum elementum nascetur; tempus mus maecenas integer elit senectus hac.
     </p>
-    <p>
+    <p className="subtitle has-text-white">
       Vel adipiscing ultrices ligula mattis eu dis tortor malesuada habitasse.
       Rutrum mauris curae; proin per nunc duis dolor vestibulum.
       Dignissim praesent vivamus feugiat porttitor pellentesque malesuada cras conubia.
