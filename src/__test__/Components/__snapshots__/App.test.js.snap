@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ui grid container"
+>
+  <div
+    className="columns is-mobile is-centered"
+  >
+    <div
+      className="column"
+    >
+      <p
+        className="title has-text-white"
+      >
+        Let's do some maths 
+      </p>
+    </div>
+    <div
+      className="column"
+    >
+      <div
+        className="calContainer"
+      >
+        <h1
+          className="display-value"
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="ui button purple"
+            onClick={[Function]}
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            className="ui button purple"
+            onClick={[Function]}
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            className="ui button purple"
+            onClick={[Function]}
+            type="button"
+          >
+            %
+          </button>
+          <button
+            className="ui button blue"
+            onClick={[Function]}
+            type="button"
+          >
+            /
+          </button>
+        </div>
+        <div
+          className="d-grid"
+        >
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            7
+          </button>
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            8
+          </button>
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            9
+          </button>
+          <button
+            className="ui button blue"
+            onClick={[Function]}
+            type="button"
+          >
+            X
+          </button>
+        </div>
+        <div
+          className="d-grid"
+        >
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            4
+          </button>
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            5
+          </button>
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            6
+          </button>
+          <button
+            className="ui button blue"
+            onClick={[Function]}
+            type="button"
+          >
+            -
+          </button>
+        </div>
+        <div
+          className="d-grid"
+        >
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            1
+          </button>
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            2
+          </button>
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            3
+          </button>
+          <button
+            className="ui button blue"
+            onClick={[Function]}
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          className="d-grid-last"
+        >
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            0
+          </button>
+          <button
+            className="ui button teal"
+            onClick={[Function]}
+            type="button"
+          >
+            .
+          </button>
+          <button
+            className="ui button blue"
+            onClick={[Function]}
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
