@@ -6,7 +6,7 @@ This project is a simple Calculator tool for Math-magicians Inc using create-rea
 
 ## Live demo
 
-[live demo](https://relaxed-wescoff-5a5dbf.netlify.app/)
+[live demo](https://vigilant-lalande-3c3026.netlify.app/)
 
 ## Built With
 
