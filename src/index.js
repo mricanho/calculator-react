@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app';
+import Routes from './Routes';
 import 'bulma/css/bulma.min.css';
 
 ReactDOM.render(
-  <App />,
+  <React.StrictMode>
+    <Routes />
+  </React.StrictMode>,
   document.getElementById('root'),
 );
