@@ -1,4 +1,3 @@
-  
 import { create } from 'react-test-renderer';
 
 import ButtonPanel from '../../components/ButtonPanel';
