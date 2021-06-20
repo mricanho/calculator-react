@@ -1,11 +1,12 @@
 /* eslint-disable no-self-assign */
 import Operate from './operate';
 
-const operationButton = (data, buttonName) => {
+const calculate = (data, buttonName) => {
   let { total, next, operation } = data;
   if (buttonName === '+/-') {
     total *= -1;
     next *= -1;
+    total.toString();
   }
   if (buttonName === 'AC') {
     total = null;
@@ -72,8 +73,6 @@ const operationButton = (data, buttonName) => {
       operation = buttonName;
     }
   }
-
   return { total, next, operation };
 };
-const calculate = (data, buttonName) => operationButton(data, buttonName);
 export default calculate;

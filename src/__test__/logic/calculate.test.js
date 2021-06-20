@@ -59,4 +59,11 @@ describe('Calculate methods', () => {
     expect(result.next).toEqual(null);
     expect(result.operation).toEqual('=');
   });
+  it('Should not be a number divid by zero', () => {
+    const result = Calculate({ total: '6', next: '0', operation: '/' }, '=');
+    expect(result.total * 1).toEqual(NaN);
+    expect(typeof result.total).not.toEqual('number');
+    expect(result.next).toEqual(null);
+    expect(result.operation).toEqual('=');
+  });
 });
